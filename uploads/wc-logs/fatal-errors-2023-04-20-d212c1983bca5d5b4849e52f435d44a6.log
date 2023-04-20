@@ -1,0 +1,41 @@
+2023-04-20T18:33:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function " free_shipping" not found or invalid function name in /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/plugins/woocommerce/templates/archive-product.php(29): do_action('woocommerce_bef...')
+#3 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/template-loader.php(106): include('/Users/Elin/Des...')
+#4 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-blog-header.php(19): require_once('/Users/Elin/Des...')
+#5 /Users/Elin/Desktop/Skola/PHP/inlamning2/index.php(17): require('/Users/Elin/Des...')
+#6 {main}
+  thrown i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-20T18:33:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function " free_shipping" not found or invalid function name in /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/plugins/woocommerce/templates/archive-product.php(29): do_action('woocommerce_bef...')
+#3 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/template-loader.php(106): include('/Users/Elin/Des...')
+#4 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-blog-header.php(19): require_once('/Users/Elin/Des...')
+#5 /Users/Elin/Desktop/Skola/PHP/inlamning2/index.php(17): require('/Users/Elin/Des...')
+#6 {main}
+  thrown i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-20T18:35:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function " free_shipping" not found or invalid function name in /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/plugins/woocommerce/templates/archive-product.php(29): do_action('woocommerce_bef...')
+#3 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/template-loader.php(106): include('/Users/Elin/Des...')
+#4 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-blog-header.php(19): require_once('/Users/Elin/Des...')
+#5 /Users/Elin/Desktop/Skola/PHP/inlamning2/index.php(17): require('/Users/Elin/Des...')
+#6 {main}
+  thrown i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-20T18:43:51+00:00 CRITICAL syntax error, unexpected integer "4", expecting ")" i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/themes/storefront-child/functions.php på rad 29
+
+2023-04-20T18:44:03+00:00 CRITICAL syntax error, unexpected integer "99", expecting ")" i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/themes/storefront-child/functions.php på rad 29
+
+2023-04-20T18:55:08+00:00 CRITICAL syntax error, unexpected integer "11", expecting ")" i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/themes/storefront-child/functions.php på rad 29
+
+2023-04-20T18:55:42+00:00 CRITICAL syntax error, unexpected integer "30", expecting ")" i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/themes/storefront-child/functions.php på rad 29
+
