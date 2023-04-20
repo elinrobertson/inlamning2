@@ -13,11 +13,12 @@
 }
 
 .onsale {
-    border-radius: 15px; 
+    border: none;
 }
 
 span.onsale {
     color: rgb(78, 201, 78);
+    font-size: 14px;
    }
 
 .button {
@@ -32,4 +33,6 @@ div.shippinginfo {
     margin-top: 5px;
     padding: 0 2.6;
     box-sizing: content-box;
+    color: black;
 }
+
