@@ -1,0 +1,10 @@
+2023-04-21T11:15:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/themes/storefront-child/functions.php on line 39 and at least 2 expected in /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/plugin.php:441
+Stack trace:
+#0 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-content/themes/storefront-child/functions.php(39): add_action('init')
+#1 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-settings.php(591): include('/Users/Elin/Des...')
+#2 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-config.php(96): require_once('/Users/Elin/Des...')
+#3 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-load.php(50): require_once('/Users/Elin/Des...')
+#4 /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-admin/admin-ajax.php(22): require_once('/Users/Elin/Des...')
+#5 {main}
+  thrown i /Users/Elin/Desktop/Skola/PHP/inlamning2/wp-includes/plugin.php på rad 441
+

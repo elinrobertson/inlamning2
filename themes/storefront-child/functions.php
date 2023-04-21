@@ -28,5 +28,14 @@ function free_shipping() {
 
 add_action('storefront_before_content', 'free_shipping');
 
+function register_menu()
+{
+    $menus = array(
+    'undermeny' => 'Undermeny',
+    );
+    register_nav_menus($menus);
+}
+
+add_action('init', 'register_menu');
 
 ?>

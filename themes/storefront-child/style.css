@@ -36,3 +36,21 @@ div.shippinginfo {
     color: black;
 }
 
+.menu2 {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        max-width: 66.4989378333em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 2.617924em;
+        box-sizing: content-box;
+        }
+
+    li.menu-item {
+        color: orange;
+    }
+    
+    a:visited {
+        color: inherit;
+    }
