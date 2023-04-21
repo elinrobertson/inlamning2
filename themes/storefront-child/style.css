@@ -22,7 +22,7 @@ span.onsale {
    }
 
 .button {
-    background-color: rgb(233, 206, 220);
+    background-color: rgb(255, 185, 54);
     border-radius: 15px;
 }
 
@@ -50,7 +50,7 @@ div.shippinginfo {
     li.menu-item {
         color: orange;
     }
-    
+
     a:visited {
         color: inherit;
     }
