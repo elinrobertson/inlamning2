@@ -49,6 +49,7 @@ div.shippinginfo {
 
     li.menu-item {
         color: orange;
+        font-size: 14px;
     }
 
     a:visited {
