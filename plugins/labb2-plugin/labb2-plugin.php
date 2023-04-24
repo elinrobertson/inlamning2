@@ -1,12 +1,16 @@
 <?php
 /*
 Plugin Name: Labb2 plugin
-Description: Dark-mode
+Description: Changing between light and dark mode
 */
+
+//Wrappar upp hela plugin:et så att det inte gäller i Adminpanelen
+//Det ska bara vara på själva websidan som det går att ändra färg
 
 if(!is_admin()) {
 
-    function style_button()
+    //Sätter css för plugin knapparna som man ska använda för att skifta mellan färgtemat
+    function style_button() 
 {
     echo "
     <style type='text/css'>
@@ -44,6 +48,7 @@ if(!is_admin()) {
 
 add_action('init', 'style_button');
 
+//Sätter inställningar för det mörka färgtemat
 function labb2_css()
 {
     echo "
@@ -145,7 +150,7 @@ if (isset($_COOKIE['labb2_css'])) {
 ?>
 
 
-<!-- Create a button or link to trigger the request -->
+<!--Skapar knappen som ska kunna byta färg på webbsidan -->
 <div class="button_container">
     <form method="post">
         <input type="hidden" name="labb2_button" value="1" />
