@@ -1,9 +1,12 @@
 <?php
 /*
 Plugin Name: Labb2 plugin
+Description: Dark-mode
 */
 
-function style_button()
+if(!is_admin()) {
+
+    function style_button()
 {
     echo "
     <style type='text/css'>
@@ -31,6 +34,10 @@ function style_button()
         color: orange;
     }
 
+    a.checkout-button.button.alt.wc-forward.wp-element-button {
+        background: rgb(204,251,63);
+        background: radial-gradient(circle, rgba(204,251,63,1) 0%, rgba(95,252,70,1) 100%); 
+    }
     </style>
     ";
 }
@@ -101,6 +108,16 @@ function labb2_css()
         color: #43454b;
     }
 
+    button.single_add_to_cart_button.button.alt.wp-element-button {
+        background-color: white;
+        color: #43454b;
+    }
+
+    a.checkout-button.button.alt.wc-forward.wp-element-button {
+        background: rgb(204,251,63);
+        background: radial-gradient(circle, rgba(204,251,63,1) 0%, rgba(95,252,70,1) 100%);
+    }
+
 
     </style>
     ";
@@ -132,12 +149,15 @@ if (isset($_COOKIE['labb2_css'])) {
 <div class="button_container">
     <form method="post">
         <input type="hidden" name="labb2_button" value="1" />
-        <button type="submit" class="labb2_button"><i class="fa-solid fa-moon"></i></button>
+        <button type="submit" class="labb2_button" onclick="event.stopPropagation();"><i class="fa-regular fa-moon"></i></button>
     </form>
     <form method="post">
         <input type="hidden" name="remove_labb2_button" value="1" />
-        <button type="submit" class="remove_labb2_button"><i class="fa-solid fa-sun"></i></button>
+        <button type="submit" class="remove_labb2_button" onclick="event.stopPropagation();"><i class="fa-solid fa-sun"></i></button>
     </form>
 </div>
+
+
+<?php } ?> 
 
 <script src="https://kit.fontawesome.com/d07cbe297a.js" crossorigin="anonymous"></script>
